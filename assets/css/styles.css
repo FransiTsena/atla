@@ -240,6 +240,15 @@ img {
 }
 
 
+.about__text{
+  text-align: justify;
+}
+.skills__text{
+  text-align: justify;
+}
+.objective__text{
+  text-align: justify;
+}
 .about__container {
   row-gap: 2rem;
   text-align: center;
@@ -305,19 +314,19 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__dart {
+.skills__training {
   width: 100%;
 }
 
-.skills__flutter {
+.skills__researching {
   width: 100%;
 }
 
-.skills__js {
+.skills__strategicPlanning {
   width: 100%;
 }
 
-.skills__ux {
+.skills__teaching {
   width: 100%;
 }
 
@@ -532,4 +541,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.emphasis{
+  font-weight: 300; 
 }
